@@ -31,6 +31,7 @@ export default App;
 ### 利用webpack打包结果在 ./webpack 
 
 # UI
-<img width="378" alt="截屏2022-04-02 下午4 29 57" src="https://user-images.githubusercontent.com/49264532/161374645-f7f123fb-2d4c-46ef-8e1d-5b6ad51e12ab.png">
+![clcm](https://user-images.githubusercontent.com/49264532/161381492-f2c81bfc-0115-4c00-8379-00514c3a5e84.gif)
+
 
 
