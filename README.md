@@ -23,3 +23,6 @@ const App = () => {
 }
 ```
 # 说明
+
+### 利用webpack打包结果在 ./webpack 
+### 利用rollup打包结果在 ./rollup
