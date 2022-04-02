@@ -1,0 +1,62 @@
+{
+  "name": "codeshow-codemirror-react",
+  "version": "1.0.3",
+  "description": "after you input code ,codemirror-react17-show will show code in pane ,save-button will copy your fix-code to clipboard",
+  "main": "dist/clcm.js",
+  "unpkg": "dist/clcm.min.js",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "dist/*",
+    "*.css"
+  ],
+  "scripts": {
+    "clean": "rimraf lib dist",
+    "build:umd": "cross-env BABEL_ENV=rollup NODE_ENV=development rollup -c -f umd -o dist/clcm.js",
+    "build:umd:min": "cross-env BABEL_ENV=rollup NODE_ENV=production rollup -c -f umd -o dist/clcm.min.js",
+    "build": "npm run clean  && npm run build:umd && npm run build:umd:min",
+    "build:all": "npm run clean && npm run build:umd && npm run build:umd:min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Isabella327/codeshow-codemirror-react.git"
+  },
+  "keywords": [
+    "codemirror",
+    "codefix",
+    "react"
+  ],
+  "author": "chongliang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isabella327/codeshow-codemirror-react.git/issues"
+  },
+  "homepage": "https://github.com/Isabella327/codeshow-codemirror-react.git#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@rollup/plugin-alias": "^3.1.1",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "@rollup/plugin-replace": "^2.3.4",
+    "cross-env": "^7.0.3",
+    "fs": "^0.0.1-security",
+    "npm-run-all": "^4.1.5",
+    "path": "^0.12.7",
+    "postcss": "^8.2.4",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-nested": "^5.0.3",
+    "postcss-preset-env": "^6.7.0",
+    "rollup": "^2.70.1",
+    "rollup-plugin-generate-html-template": "^1.7.0",
+    "rollup-plugin-includepaths": "^0.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-scss": "^2.6.1",
+    "serve": "^11.3.2"
+  }
+}
