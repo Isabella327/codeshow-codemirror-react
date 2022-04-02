@@ -1,0 +1,17 @@
+.button-container {
+  width: 70px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(115, 103, 240, 0.2);
+  border-radius: 5px;
+}
+
+.button-container:hover {
+  cursor: pointer;
+}
+
+.CodeMirror-merge-right {
+  pointer-events: none;
+}
