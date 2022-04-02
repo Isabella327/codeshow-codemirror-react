@@ -1,29 +1,28 @@
 # Getting Started
 
-Before start, you must install codemirror and diff-match-patch
+This npm includes: codemirror and diff-match-patch(no need to install)
 
-必须安装以下两个依赖，本依赖作为二次封装
+本依赖作为二次封装，包含以下两个依赖 codemirror and diff-match-patch(无需安装)
 
-`npm i codemirror@5.65.2`
-
-`npm i diff-match-patch@1.0.5`
-
+# 直接安装
 ### `npm i codeshow-codemirror-react`
-
-https://www.npmjs.com/package/codeshow-codemirror-react
 
 # Example
 ```
 import Clcm from 'codeshow-codemirror-react';
+import 'codeshow-codemirror-react/dist/clcm.css';
 
-const App = () => {
+function App() {
   return (
     <div>
       <Clcm code='你好'/> //code必填, string
     </div>
-  )
+  );
 }
+
+export default App;
 ```
+
 # 说明
 
 ### 利用rollup打包结果在 ./rollup
