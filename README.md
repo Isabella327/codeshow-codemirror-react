@@ -4,9 +4,9 @@ Before start, you must install codemirror and diff-match-patch
 
 必须安装以下两个依赖，本依赖作为二次封装
 
-`npm i codemirror@^5.65.2`
+`npm i codemirror@5.65.2`
 
-`npm i diff-match-patch@^1.0.5`
+`npm i diff-match-patch@1.0.5`
 
 ### `npm i codeshow-codemirror-react`
 
