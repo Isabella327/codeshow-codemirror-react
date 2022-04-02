@@ -22,15 +22,4 @@ const App = () => {
   )
 }
 ```
-
-#目录结构
-├── scripts                    //webpack打包脚本  
-├── es                      
-├── lib                        //npm包内容
-├── example                  
-    ├──index.js                                     
-├── src                         
-│   ├── index.css          
-│   └── index.js                                
-├── README.md                   // 开发文档
-├── package.json                // 模块描述文件
+# 说明
